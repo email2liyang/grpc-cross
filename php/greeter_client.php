@@ -20,5 +20,5 @@ function great($name)
     return $reply->getMessage();
 }
 
-$name = !empty($argv[1]) ? $argv[1] : 'world';
+$name = !empty($argv[1]) ? $argv[1] : 'grpc';
 echo great($name)."\n";
