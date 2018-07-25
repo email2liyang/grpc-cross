@@ -68,14 +68,15 @@ dependencies {
     compile 'org.slf4j:log4j-over-slf4j:1.7.25'
     compile 'ch.qos.logback:logback-core:1.2.3'
     compile 'ch.qos.logback:logback-classic:1.2.3'
+    compile 'com.google.cloud:google-cloud-logging-logback:0.55.1-alpha'
 
     // gRPC
-    compile 'io.grpc:grpc-netty:1.6.1'
-    compile 'io.grpc:grpc-protobuf:1.6.1'
-    compile 'io.grpc:grpc-stub:1.6.1'
+    compile 'io.grpc:grpc-netty:1.13.1'
+    compile 'io.grpc:grpc-protobuf:1.13.1'
+    compile 'io.grpc:grpc-stub:1.13.1'
 
     // test dependencies
-    testCompile 'io.grpc:grpc-testing:1.6.1'
+    testCompile 'io.grpc:grpc-testing:1.13.1'
     testCompile 'junit:junit:4.12'
     testCompile 'com.github.javafaker:javafaker:0.13'
     testCompile 'org.mockito:mockito-core:2.8.47'
