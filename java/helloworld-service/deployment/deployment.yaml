@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: helloworld-service
-        image: email2liyang/helloworld-service:1.0.3
+        image: email2liyang/helloworld-service:1.0.5
         imagePullPolicy: Always
         env:
         - name: GOOGLE_APPLICATION_CREDENTIALS
