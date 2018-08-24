@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: helloworld-ingress
+  namespace: stage
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/grpc-backend: "false"
+spec:
+  rules:
+  - host: ac8ee8d0ba79211e89779129378ac976-2027633798.us-east-1.elb.amazonaws.com
+    http:
+      paths:
+      - path: /v1
+        backend:
+          serviceName: helloworld-service
+          servicePort: http
