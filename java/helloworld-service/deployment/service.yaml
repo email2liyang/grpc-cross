@@ -13,6 +13,6 @@ spec:
     port: 80
     targetPort: http
     protocol: TCP
-#  type: LoadBalancer
+  type: NodePort
   selector:
     app: helloworld-service
