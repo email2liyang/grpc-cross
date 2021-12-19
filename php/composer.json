@@ -1,8 +1,0 @@
-{
-  "name": "grpc client",
-  "description": "gRPC client for PHP",
-  "require": {
-    "grpc/grpc": "^v1.13.0",
-    "google/protobuf": "^v3.6.0"
-  }
-}
