@@ -1,8 +1,0 @@
-**/.idea/**
-**/.idea
-**/vendor
-**/*.iml
-**/.gradle/**
-**/.gradle
-**/build
-**/out
